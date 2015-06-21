@@ -5,7 +5,7 @@ USER ubuntu
 
 # we need to update nvm to install iojs
 RUN cd /home/ubuntu/nvm && git pull origin master
-RUN /bin/bash -c ". /home/ubuntu/nvm/nvm.sh && nvm install iojs-v2.3.0"
+RUN /bin/bash -c ". /home/ubuntu/nvm/nvm.sh && nvm install iojs-v2.3.0 && nvm use iojs-v2.3.0"
 
 USER root
 # Install postgresql client
