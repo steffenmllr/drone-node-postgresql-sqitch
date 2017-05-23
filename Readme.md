@@ -1,6 +1,6 @@
-# drone-nvm-postgresql-sqitch
+# node-postgresql-sqitch
 
-* [Drone!](https://github.com/drone/drone) Image
-* iojs-v2.3.0
+* node:7
+* yarn
+* postgresql-9.6
 * [sqitch!](https://github.com/theory/sqitch)
-
